@@ -1,0 +1,10 @@
+@font-face {
+  font-family: equinox;
+  src: url("/cdn/assets/fonts/equinox/webfonts/Equinox-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: equinox;
+  src: url("/cdn/assets/fonts/equinox/webfonts/Equinox-Bold.woff") format("woff");
+  font-weight: bold;
+}

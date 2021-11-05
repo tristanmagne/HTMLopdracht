@@ -1,0 +1,18 @@
+:root {
+  --bg-color: #fff;
+  --primary: #770d0d;
+  --color: #363636;
+  --light: rgba(0, 0, 0, 0.1);
+  --dark: rgba(0, 0, 0, 0.8);
+  --navbar-height: 4rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #181e23;
+    --primary: #FF0000;
+    --color: whitesmoke;
+    --light: #384b59;
+    --dark: #d7dfe7;
+  }
+}

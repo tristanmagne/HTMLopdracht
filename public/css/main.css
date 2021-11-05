@@ -1,0 +1,40 @@
+main {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 300vw;
+  margin: 0 auto;
+  /* text-align: center; */
+  position: relative;
+  overflow: hidden auto;
+}
+
+main section {
+  width: 100vw;
+  padding: 0 10vw;
+  padding-bottom: 1rem;
+  max-width: 100%;
+  overflow: hidden auto;
+  /* -ms-overflow-style: none; IE and Edge */
+  /* scrollbar-width: none; Firefox */
+  height: 100%;
+}
+
+/* main section::-webkit-scrollbar {
+  display: none;
+} */
+
+main.allowed-to-anim {
+  transition: transform 300ms ease;
+}
+
+main.select-projects {
+  transform: translateX(0);
+}
+
+main.select-home {
+  transform: translateX(calc(-100% / 3));
+}
+
+main.select-profile {
+  transform: translateX(calc(-100% / 3 * 2));
+}

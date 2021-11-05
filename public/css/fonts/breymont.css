@@ -1,0 +1,10 @@
+@font-face {
+  font-family: breymont;
+  src: url("/cdn/assets/fonts/breymont/Breymont-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: breymont;
+  src: url("/cdn/assets/fonts/breymont/Breymont-Bold.woff2") format("woff2");
+  font-weight: bold;
+}

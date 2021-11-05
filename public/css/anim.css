@@ -1,0 +1,40 @@
+.box {
+  height: 200px;
+  margin-bottom: 1rem;
+  border-radius: 0.125rem;
+}
+
+.skeleton {
+  opacity: 0.7;
+  animation: skeleton-loading 1s linear infinite alternate;
+  background-color: var(--light, rgba(0, 0, 0, 0.1));
+}
+
+@media (prefers-color-scheme: dark) {
+  .skeleton {
+    background-color: var(--dark, #d7dfe7;);
+  }
+}
+
+.skeleton-text {
+  width: 100%;
+  height: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 0.125rem;
+}
+.skeleton-text:last-child {
+  margin-bottom: 0;
+  width: 80%;
+}
+.skeleton-text.big {
+  height: 3rem;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.7;
+  }
+}

@@ -1,0 +1,26 @@
+/* Desktop */
+@media screen and (min-width: 1280px) {
+  main {
+    /* background-color: var(--light, rgba(0, 0, 0, 0.1)); */
+  }
+  main section {
+    padding-left: 30vw;
+    padding-right: 30vw;
+  }
+
+  .hidden-desktop {
+    display: none;
+  }
+
+  .card .content {
+    display: flex;
+    justify-content: center;
+  }
+  .card .content p {
+    max-width: 60%;
+  }
+
+  .card .header .octicon {
+    left: 1%;
+  }
+}
